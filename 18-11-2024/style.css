@@ -1,0 +1,45 @@
+/* body{
+    height: 100vh;
+    background-color: red;
+} */
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body{
+    background-color: grey;
+}
+
+.box{
+    height: 500px;
+    width: 500px;
+    background-color: green;
+    bottom: 450px;
+    /* position: static; */
+    /* position: absolute; */
+    top: 100px;
+}
+
+.box > .innerbox{
+    /* height: 100px;
+    width: 100px; */
+    background-color: white;
+    position: sticky;
+    /* position: absolute; */
+    /* top:50% ; */
+    top: 0;
+}
+
+.icon{
+    position: fixed;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: white;
+    /* z-index: 99; */
+    right: 10%;
+    bottom: 10%;
+}
